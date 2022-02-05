@@ -20,8 +20,8 @@ createGrid(16)
 paintGrid()
 
 function getDimensions(){
-	let dimension = prompt('enter dimension:')
-	createGrid(dimension)
+	let gridNumber = prompt('Enter number of grids:')
+	createGrid(gridNumber)
 	paintGrid();
 }
 
