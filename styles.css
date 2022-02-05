@@ -1,0 +1,13 @@
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	height: 640px;
+	width: 640px;
+	border: none;
+	outline: 2px solid black;
+	margin-top: 20px;
+} 
+#container .grid{
+	border: none;
+	outline: 1px solid black;
+}
