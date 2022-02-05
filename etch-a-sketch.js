@@ -3,8 +3,8 @@
 const container = document.querySelector('#container')
 
 function createGrid(number) {
-	let h = 640 / number
-	let w = 640 / number
+	let h = 960 / number
+	let w = 960 / number
 	for(let rows=1; rows<=number; rows++ ){
 		for(let columns=1; columns<=number; columns++){
 			let div = document.createElement('div')
