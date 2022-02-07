@@ -30,7 +30,10 @@ function paintGrid(){
 
 	grids.forEach((grid) => {
 		grid.addEventListener('mouseenter', (e) => {
-			grid.style.background = 'black';
+			if(!grid.style.background){
+
+				grid.style.background = `rgb(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)})`;
+			}
 		})
 	})
 }
